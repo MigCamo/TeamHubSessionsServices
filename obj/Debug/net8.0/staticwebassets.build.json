@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "jGmENW1uJ9UfmoPAsPMFGiTzangxV9IRsEfvS3745Mg=",
+  "Source": "TeamHubSessionsServices",
+  "BasePath": "_content/TeamHubSessionsServices",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
