@@ -42,7 +42,7 @@ builder.Services.AddAuthentication(options => {
         ValidateIssuerSigningKey = true
     };
 });
-
+builder.Services.AddAuthorization();
 
 builder.Services.AddDbContext<Context>(options => {
     var connectionString = builder.Configuration
