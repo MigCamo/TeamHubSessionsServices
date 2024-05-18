@@ -80,7 +80,8 @@ app.MapPost("/TeamHub/Sessions/validateUser", (IValidateUser validateUser,
             response.IsValid = true;
             response.User = new User() { 
                 Email = student.Email, 
-                FullName = $"{student.LastName} {student.SurName} {student.Name}"
+                FullName = $"{student.LastName} {student.SurName} {student.Name}",
+                ID = student.IdStudent
             };
         }
         return response;    
