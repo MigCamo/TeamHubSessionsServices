@@ -7,9 +7,9 @@ namespace TeamHubSessionsServices.Gateways.Providers;
 
 class ServiceSessionsMySQL : IServicesSessions
 {
-    private Context dbContext;
+    private TeamHubContext dbContext;
 
-    public ServiceSessionsMySQL(Context dbContext) {
+    public ServiceSessionsMySQL(TeamHubContext dbContext) {
         this.dbContext = dbContext;
     }
 

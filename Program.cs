@@ -44,7 +44,7 @@ builder.Services.AddAuthentication(options => {
 });
 builder.Services.AddAuthorization();
 
-builder.Services.AddDbContext<Context>(options => {
+builder.Services.AddDbContext<TeamHubContext>(options => {
     var connectionString = builder.Configuration
                            .GetConnectionString("MySQLCursos");
     options.UseMySQL(connectionString);

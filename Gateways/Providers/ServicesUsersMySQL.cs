@@ -8,8 +8,8 @@ namespace TeamHubSessionsServices.Gateways.Providers;
 
 public class ServicesUsersMySQL : IServicesUsers
 {
-    private Context dbcontext;
-    public ServicesUsersMySQL(Context context){
+    private TeamHubContext dbcontext;
+    public ServicesUsersMySQL(TeamHubContext context){
         this.dbcontext = context;
     }
 

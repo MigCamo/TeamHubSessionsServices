@@ -13,5 +13,5 @@ public partial class taskstudent
 
     public virtual student? IdStudentNavigation { get; set; }
 
-    public virtual task? IdTaskNavigation { get; set; }
+    public virtual tasks? IdTaskNavigation { get; set; }
 }

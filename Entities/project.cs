@@ -13,9 +13,9 @@ public partial class project
 
     public DateTime? EndDate { get; set; }
 
-    public virtual ICollection<projectdocument> projectdocument { get; set; } = new List<projectdocument>();
+    public virtual ICollection<document> document { get; set; } = new List<document>();
 
     public virtual ICollection<projectstudent> projectstudent { get; set; } = new List<projectstudent>();
 
-    public virtual ICollection<projecttask> projecttask { get; set; } = new List<projecttask>();
+    public virtual ICollection<tasks> tasks { get; set; } = new List<tasks>();
 }

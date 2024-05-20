@@ -9,7 +9,13 @@ public partial class document
 
     public string? Name { get; set; }
 
-    public string? Ruta { get; set; }
+    public string? Path { get; set; }
 
-    public virtual ICollection<projectdocument> projectdocument { get; set; } = new List<projectdocument>();
+    public int? Extension { get; set; }
+
+    public int IdProject { get; set; }
+
+    public virtual extension? ExtensionNavigation { get; set; }
+
+    public virtual project IdProjectNavigation { get; set; } = null!;
 }

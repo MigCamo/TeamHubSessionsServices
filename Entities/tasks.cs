@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace TeamHubSessionsServices.Entities;
 
-public partial class task
+public partial class tasks
 {
     public int IdTask { get; set; }
 
@@ -15,7 +15,9 @@ public partial class task
 
     public DateTime? EndDate { get; set; }
 
-    public virtual ICollection<projecttask> projecttask { get; set; } = new List<projecttask>();
+    public int? IdProject { get; set; }
+
+    public virtual project? IdProjectNavigation { get; set; }
 
     public virtual ICollection<taskstudent> taskstudent { get; set; } = new List<taskstudent>();
 }
