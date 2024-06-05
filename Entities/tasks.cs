@@ -17,6 +17,8 @@ public partial class tasks
 
     public int? IdProject { get; set; }
 
+    public string? Status { get; set; }
+
     public virtual project? IdProjectNavigation { get; set; }
 
     public virtual ICollection<taskstudent> taskstudent { get; set; } = new List<taskstudent>();

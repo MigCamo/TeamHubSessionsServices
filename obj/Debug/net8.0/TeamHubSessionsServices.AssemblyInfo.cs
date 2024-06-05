@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TeamHubSessionsServices")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9bac7bc2a5fdfb200bdf5eb6faab258b171fe02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d3491d051ac9b0e99b9eb99262d2019e691e92a")]
 [assembly: System.Reflection.AssemblyProductAttribute("TeamHubSessionsServices")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TeamHubSessionsServices")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

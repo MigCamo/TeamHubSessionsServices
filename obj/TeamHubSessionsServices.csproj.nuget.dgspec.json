@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yusgu\\Documents\\UV\\6to Semestre\\SRED\\ProyectoFinalServer\\TeamHubSessionsServices\\TeamHubSessionsServices.csproj": {}
+    "D:\\Migue\\.onedrive\\OneDrive - Universidad Veracruzana\\Escritorio\\Workspace-Teamhub\\TeamHubSessionsServices\\TeamHubSessionsServices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yusgu\\Documents\\UV\\6to Semestre\\SRED\\ProyectoFinalServer\\TeamHubSessionsServices\\TeamHubSessionsServices.csproj": {
+    "D:\\Migue\\.onedrive\\OneDrive - Universidad Veracruzana\\Escritorio\\Workspace-Teamhub\\TeamHubSessionsServices\\TeamHubSessionsServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yusgu\\Documents\\UV\\6to Semestre\\SRED\\ProyectoFinalServer\\TeamHubSessionsServices\\TeamHubSessionsServices.csproj",
+        "projectUniqueName": "D:\\Migue\\.onedrive\\OneDrive - Universidad Veracruzana\\Escritorio\\Workspace-Teamhub\\TeamHubSessionsServices\\TeamHubSessionsServices.csproj",
         "projectName": "TeamHubSessionsServices",
-        "projectPath": "C:\\Users\\yusgu\\Documents\\UV\\6to Semestre\\SRED\\ProyectoFinalServer\\TeamHubSessionsServices\\TeamHubSessionsServices.csproj",
-        "packagesPath": "C:\\Users\\yusgu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yusgu\\Documents\\UV\\6to Semestre\\SRED\\ProyectoFinalServer\\TeamHubSessionsServices\\obj\\",
+        "projectPath": "D:\\Migue\\.onedrive\\OneDrive - Universidad Veracruzana\\Escritorio\\Workspace-Teamhub\\TeamHubSessionsServices\\TeamHubSessionsServices.csproj",
+        "packagesPath": "C:\\Users\\Migue\\.nuget\\packages\\",
+        "outputPath": "D:\\Migue\\.onedrive\\OneDrive - Universidad Veracruzana\\Escritorio\\Workspace-Teamhub\\TeamHubSessionsServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Archivos Programas\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\yusgu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -96,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
